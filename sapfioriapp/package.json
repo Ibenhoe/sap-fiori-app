@@ -1,0 +1,43 @@
+{
+  "name": "sapfioriapp",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@cap-js/hana": "^1",
+    "@sap/cds": "^8",
+    "axios": "^1.9.0",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/cds-types": "^0.10.0",
+    "@cap-js/sqlite": "^1"
+  },
+  "scripts": {
+    "start": "cds run",
+    "watch-sapfioriapp.fiorieelements": "cds watch --open sapfioriapp.fiorieelements/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "model": "srv",
+        "credentials": {
+          "url": "db/data.db"
+        },
+        "data": [
+          "db/data/Attributes.csv"
+        ]
+      }
+    }
+  }
+,
+"log": {
+      "AttributeServiceLogger": "debug" 
+    },
+  "sapux": [
+    "app/sapfioriapp.fiorieelements"
+  ]
+}

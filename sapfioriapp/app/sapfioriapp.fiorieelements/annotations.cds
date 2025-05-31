@@ -1,0 +1,1 @@
+using AttributeService as service from '../../srv/service';
