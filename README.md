@@ -1,16 +1,17 @@
 # SAP Fiori App
 
-Dit project is het eindwerk voor de opleiding Business IT aan de Erasmushogeschool Brussel (EHB).
+Dit project is heen opdracht voor de opleiding Business IT aan de Erasmushogeschool Brussel (EHB).
 
 ## Overzicht
 
-Deze repository bevat een SAP Fiori applicatie ontwikkeld in het kader van het afstuderen. De applicatie is hoofdzakelijk geschreven in JavaScript, HTML en CAP CDS.
+Deze repository bevat een SAP Fiori applicatie ontwikkeld in het kader van het vak Business IT. De applicatie is hoofdzakelijk geschreven in JavaScript, HTML en CAP CDS. Gemaakt in SAP Businesses Application Studio.
 
 ## Functionaliteiten
 
 - Moderne SAP Fiori gebruikersinterface
 - Backend logica met CAP CDS
-- [Vul hier aan met specifieke functionaliteiten van jouw app]
+- External api with SAP integration suite 
+
 
 ## Installatie
 
