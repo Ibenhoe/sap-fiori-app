@@ -19,5 +19,7 @@ Deze repository bevat een SAP Fiori applicatie ontwikkeld in het kader van het a
    git clone https://github.com/Ibenhoe/sap-fiori-app.git
 
 npm install
+
 npx cds deploy --to sqlite:db/data.db
+
 cds watch
